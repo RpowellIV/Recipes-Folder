@@ -1,7 +1,7 @@
 function marinaraSauce (cookName, var2){
     var two = 2
     var oneFourth = .25
-    var fracCon = oneFourth == .25 ? "1/4" : "Wrong Measurement!";
+    var fracCon = oneFourth === .25 ? "1/4" : "Wrong Measurement!";
     var greet = "Hey, "+ cookName + "! This is my marinara sauce recipe! " + var2
     console.log(greet)
     console.log("- Heat a medium-large saucepan over medium heat")
